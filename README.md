@@ -1,12 +1,12 @@
-# Data Cleaning and Preprocessing – Marketing Campaign Dataset
+# Data Cleaning and Preprocessing – Customer Personality Analysis Dataset
 
 ## Objective
 
-Perform data cleaning and preprocessing on the Marketing Campaign dataset to improve data quality and prepare it for analysis.
+Perform data cleaning and preprocessing on the Customer Personality Analysis dataset to improve data quality and prepare it for analysis.
 
 ## Dataset
 
-* Dataset Name: Marketing Campaign Dataset
+* Dataset Name: marketing_campaign.csv from Kaggle
 * Records: 2240 rows
 * Features: 29 columns
 
