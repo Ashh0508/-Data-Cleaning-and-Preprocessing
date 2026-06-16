@@ -45,6 +45,23 @@ Perform data cleaning and preprocessing on the Marketing Campaign dataset to imp
 ## Output
 
 * Generated a cleaned dataset named `marketing_campaign_cleaned.csv`.
+  
+| Metric                | Before Cleaning | After Cleaning |
+| --------------------- | --------------- | -------------- |
+| Rows                  | 2240            | 2238           |
+| Columns               | 29              | 29             |
+| Missing Income Values | 24              | 0              |
+| Duplicate Rows        | 2               | 0              |
+
+## Challenges Faced
+
+### Dataset Loading Issue
+During the preprocessing stage, the dataset was initially loaded incorrectly into Pandas. Instead of creating separate columns, the entire header row was imported as a single column. After investigating the issue, it was found that the dataset was tab-separated rather than comma-separated.
+
+To resolve this, the dataset was loaded using:
+
+```python
+df = pd.read_csv("marketing_campaign.csv", sep="\t")
 
 ## Tools Used
 
