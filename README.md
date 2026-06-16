@@ -48,7 +48,7 @@ Perform data cleaning and preprocessing on the Marketing Campaign dataset to imp
   
 | Metric                | Before Cleaning | After Cleaning |
 | --------------------- | --------------- | -------------- |
-| Rows                  | 2240            | 2238           |
+| Rows                  | 2240            | 2216           |
 | Columns               | 29              | 29             |
 | Missing Income Values | 24              | 0              |
 | Duplicate Rows        | 2               | 0              |
